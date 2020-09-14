@@ -1,0 +1,65 @@
+{
+  "0":{
+    "title": "Hôtel Paris Ouest Achères",
+    "distance": "12.3",
+    "wifi": "Free Wi-Fi",
+    "price": "30",
+    "image": "./img/hotels/Calque-2.jpg"
+  },
+  "1":{ 
+    "title": "L'Hôtel du Collectionneur",
+    "distance": "11.3",
+    "wifi": "Free Wi-Fi",
+    "price": "23",
+    "image": "./img/hotels/Calque-22.jpg"
+  },
+  "2":{ 
+    "title": "Hôtel Eiffel Seine",
+    "distance": "9.0",
+    "wifi": "Free Wi-Fi",
+    "price": "31",
+    "image": "./img/hotels/Calque-21.jpg"
+  },
+    "3":{
+    "title": "Villa Royale Montsouris",
+    "distance": "12.1",
+    "wifi": "Free Wi-Fi",
+    "price": "37",
+    "image": "./img/hotels/room1.png"
+  },
+  "4":{ 
+    "title": "Hôtel Novotel Paris-Les-Halles",
+    "distance": "13.5",
+    "wifi": "Free Wi-Fi",
+    "price": "26",
+    "image": "./img/hotels/Calque-23.jpg"
+  },
+  "5":{ 
+    "title": "Hôtel Mademoiselle",
+    "distance": "14.1",
+    "wifi": "Free Wi-Fi",
+    "price": "33",
+    "image": "./img/hotels/Calque-24.jpg"
+  },
+    "6":{
+    "title": "Hôtel Paris Ouest Achères",
+    "distance": "8.2",
+    "wifi": "Free Wi-Fi",
+    "price": "20",
+    "image": "./img/hotels/room1.png"
+  },
+  "7":{ 
+    "title": "Hôtel Louvres",
+    "distance": "17.9",
+    "wifi": "Free Wi-Fi",
+    "price": "35",
+    "image": "./img/hotels/Calque-21.jpg"
+  },
+  "8":{ 
+    "title": "Hôtel Novotel Paris-Les-Halles",
+    "distance": "10.7",
+    "wifi": "Free Wi-Fi",
+    "price": "40",
+    "image": "./img/hotels/Calque-22.jpg"
+  }
+}

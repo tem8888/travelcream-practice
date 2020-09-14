@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a7d3627b.chunk.css",
+    "main.js": "./static/js/main.acd45244.chunk.js",
+    "main.js.map": "./static/js/main.acd45244.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.61d6e02b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.61d6e02b.js.map",
+    "static/js/2.6741335c.chunk.js": "./static/js/2.6741335c.chunk.js",
+    "static/js/2.6741335c.chunk.js.map": "./static/js/2.6741335c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.0a31b3f78f8364ede7ca35785719267b.js": "./precache-manifest.0a31b3f78f8364ede7ca35785719267b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.a7d3627b.chunk.css.map": "./static/css/main.a7d3627b.chunk.css.map",
+    "static/js/2.6741335c.chunk.js.LICENSE.txt": "./static/js/2.6741335c.chunk.js.LICENSE.txt",
+    "static/media/arc.png": "./static/media/arc.d0ce2b18.png",
+    "static/media/deshalles.png": "./static/media/deshalles.21d14c05.png",
+    "static/media/eifel.png": "./static/media/eifel.fef41d76.png",
+    "static/media/styles.sass": "./static/media/img.34a9b44f.png",
+    "static/media/louvres.png": "./static/media/louvres.6a34b804.png",
+    "static/media/notredam.png": "./static/media/notredam.30808fe2.png",
+    "static/media/sacre.png": "./static/media/sacre.d92d245a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.61d6e02b.js",
+    "static/js/2.6741335c.chunk.js",
+    "static/css/main.a7d3627b.chunk.css",
+    "static/js/main.acd45244.chunk.js"
+  ]
+}
