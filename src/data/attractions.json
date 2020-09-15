@@ -1,0 +1,26 @@
+{
+  "0":{
+    "title": "Eifel Tower",
+    "image": "./img/attractions/eifel.png"
+  },
+  "1":{
+    "title": "Louvres",
+    "image": "./img/attractions/louvres.png"
+  },
+  "2":{
+    "title": "Notre Dame de Paris",
+    "image": "./img/attractions/notredam.png"
+  },
+  "3":{
+    "title": "Forum des Halles",
+    "image": "./img/attractions/arc.png"
+  },
+  "4":{
+    "title": "Arc de Triomph",
+    "image": "./img/attractions/deshalles.png"
+  },
+  "5":{
+    "title": "Sacre Coeur",
+    "image": "./img/attractions/sacre.png"
+  }
+}
