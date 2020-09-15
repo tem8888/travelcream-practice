@@ -5,16 +5,19 @@ const SearchForm = (props) => {
 	return (
     
   <form className="search" onSubmit={(e) => { 
-    e.preventDefault();   
-    if (props.inputDeparture) 
+    e.preventDefault(); 
+    if (props.inputDeparture && props.inputArrival)
+      props.dispatch({type: 'all',
+      payload: {inputDeparture: props.inputDeparture, inputArrival: props.inputArrival, filtered: props.stateFlights.initial}})
+    else if (props.inputDeparture) 
       props.dispatch({type: 'departure',  
       payload: {inputDeparture: props.inputDeparture, filtered: props.stateFlights.initial}});
        // props.setSortType('departure')}
-      else if (props.inputArrival) 
-        props.dispatch({type: 'arrival',
-        payload: {inputArrival: props.inputArrival, filtered: props.stateFlights.initial}});
+    else if (props.inputArrival) 
+      props.dispatch({type: 'arrival',
+      payload: {inputArrival: props.inputArrival, filtered: props.stateFlights.initial}});
       //  props.setSortType('arrival')}
-      else props.dispatch({type: props.sortType,
+    else props.dispatch({type: props.sortType,
       payload: {filtered: props.stateFlights.initial}}) // При нажати на Поиск при пустых полях возвращаем данные c учетом сортировки
     }}>
     <input type="text" className="search__input" placeholder="Where are you leaving from ?"

@@ -11,6 +11,7 @@ const flights = Object.values(flightsJSON)
 
 const Flights = () => {
 
+  const flightsToShow = 5
   const [sortType, setSortType] = useState('daysleft') // Поле сортировки полетов (по умолчанию - дней до отправления)
   const [moreFlights, showMoreFlights] = useState(false) // Состояние показа всего списка полетов
   const [inputDeparture, setInputDeparture] = useState('') // значение поля ввода города отправки
@@ -74,12 +75,16 @@ const Flights = () => {
       	</div>
       		{stateFlights.filtered.length > 0 ? stateFlights.filtered.map((flightInfo,i) => (
 
-
       			<FlightList key={i} flight={flightInfo} moreFlights={moreFlights} i={i} />
 
       		)) : <div className="flights__no-flights-msg">Flights not found.</div>}
+
       </div>
-      <div className="view-more" onClick={() => showMoreFlights(!moreFlights)}>{moreFlights ? "Minimize" : "See all Flights"}</div>
+      
+      {stateFlights.filtered.length > flightsToShow ? 
+        <div className="view-more" onClick={() => showMoreFlights(!moreFlights)}>{moreFlights ? 'Minimize' : 'See all Flights'}</div> : ""
+      }
+      
     </div>
   </section>
      
