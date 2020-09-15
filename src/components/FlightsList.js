@@ -3,6 +3,7 @@ import React from 'react'
 const FlightsList = ({flight, i, moreFlights}) => {
 
 	return (
+		<>
 		<div className={moreFlights ? "flights__row" : i > 4 ? "flights__row--hidden" : "flights__row"}>
 	      			<div className="flights__col-item">
 	      				<img src={flight.logo} alt="" className="flights__airline-img"/>
@@ -30,6 +31,7 @@ const FlightsList = ({flight, i, moreFlights}) => {
 		      			<div className="flights__item-top-info price">{flight.price} $</div>
 		      		</div>
 	      		</div>
+	      		</>
 	)
 }
 

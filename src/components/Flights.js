@@ -72,11 +72,12 @@ const Flights = () => {
       		<div className="flights__header-item">Flight Time</div>
       		<div className="flights__header-item">Price</div>
       	</div>
-      		{stateFlights.filtered.map((flightInfo,i) => (
+      		{stateFlights.filtered.length > 0 ? stateFlights.filtered.map((flightInfo,i) => (
+
 
       			<FlightList key={i} flight={flightInfo} moreFlights={moreFlights} i={i} />
 
-      		))}
+      		)) : <div className="flights__no-flights-msg">Flights not found.</div>}
       </div>
       <div className="view-more" onClick={() => showMoreFlights(!moreFlights)}>{moreFlights ? "Minimize" : "See all Flights"}</div>
     </div>

@@ -3,7 +3,7 @@ import React from 'react'
 const SearchForm = (props) => {
 
 	return (
-
+    
   <form className="search" onSubmit={(e) => { 
     e.preventDefault();   
     if (props.inputDeparture) 
