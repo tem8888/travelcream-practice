@@ -1,26 +1,65 @@
 {
   "0":{
+    "id": "0",
     "title": "Eifel Tower",
-    "image": "./img/attractions/eifel.png"
+    "image": "./img/attractions/eifel.png",
+    "size": "long",
+    "type": "monuments"
   },
   "1":{
+    "id": "1",
     "title": "Louvres",
-    "image": "./img/attractions/louvres.png"
+    "image": "./img/attractions/louvres.png",
+    "size": "wide",
+    "type": "museums"
   },
   "2":{
+    "id": "2",
     "title": "Notre Dame de Paris",
-    "image": "./img/attractions/notredam.png"
+    "image": "./img/attractions/notredam.png",
+    "size": "wide",
+    "type": "shows"
   },
   "3":{
+    "id": "3",
     "title": "Forum des Halles",
-    "image": "./img/attractions/arc.png"
+    "image": "./img/attractions/arc.png",
+    "size": "square",
+    "type": "shoppings"
   },
   "4":{
-    "title": "Arc de Triomph",
-    "image": "./img/attractions/deshalles.png"
+    "id": "4",
+    "title": "Arc de Triomph 1",
+    "image": "./img/attractions/deshalles.png",
+    "size": "square",
+    "type": "monuments"
   },
   "5":{
+    "id": "5",
     "title": "Sacre Coeur",
-    "image": "./img/attractions/sacre.png"
+    "image": "./img/attractions/sacre.png",
+    "size": "square",
+    "type": "museums"
+  },
+  "6":{
+    "id": "6",
+    "title": "Arc de Triomph 2",
+    "image": "./img/attractions/deshalles.png",
+    "size": "square",
+    "type": "monuments"
+  },
+  "7":{
+    "id": "7",
+    "title": "Sacre Coeur",
+    "image": "./img/attractions/sacre.png",
+    "size": "square",
+    "type": "museums"
+  },
+  "8":{
+    "id": "8",
+    "title": "Arc de Triomph 3",
+    "image": "./img/attractions/deshalles.png",
+    "size": "square",
+    "type": "monuments"
   }
 }

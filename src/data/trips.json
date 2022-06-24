@@ -1,7 +1,7 @@
 {
   "0":{
     "title": "Accès prioritaire au sommet de la tour Eiffel et hôte",
-    "text": "Avec ce billet coupe-file pour la tour Eiffel, profitez de la seule entrée prioritaire à la tourqui comprend un guide et des commentaires, vous offrant une visite sans encombre de l'un des monuments les plus visités au monde. Accompagné de votre guide depuis l'extérieur de l'entrée principale jusqu'au deuxième étage, vous profiterez d'une entrée détendue à la tour Eiffel avec suffisamment de temps libre pour flâner.",
+    "text": "Avec ce billet coupe-file pour la tour Eiffel, profitez de la seule entrée prioritaire à la tourqui comprend un guide et des commentaires, vous offrant une visite sans encombre de l'un des monuments les plus visités au monde. Accompagné de votre guide depuis l'extérieur de l'entrée principale jusqu'au deuxième étage, vous profiterez d'une entrée détendue à la tour Eiffel avec suffisamment de temps libre pour flâner de temps libre pour flâner.",
     "image": "./img/trips/trip1.png"
   },
   "1":{
@@ -23,5 +23,10 @@
     "title": "Croisière sur la Seine de 3 heures avec les Bateaux-Mouches",
     "text": "À un point de rencontre au centre de Paris, rencontrez le fournisseur de billet local, quivous guidera devant la ligne d'entrée au Musée du Louvre pour un accès au musée, unedes attractions les plus populaires de la ville. Explorez à votre guise l'art et d'autres arts qui vous intéressent. La cerise sur le gâteau est, bien entendu, la Joconde de Léonard de Vinci mais il y a de nombreux trésors à découvrir.",
     "image": "./img/trips/trip2.png"
+  },
+  "5":{
+    "title": "Billet d'entrée au Musée du Louvre avec présentation par un guide",
+    "text": "À un point de rencontre au centre de Paris, rencontrez le fournisseur de billet local, quivous guidera devant la ligne d'entrée au Musée du Louvre pour un accès au musée, unedes attractions les plus populaires de la ville. Explorez à votre guise l'art et d'autres arts qui vous intéressent. La cerise sur le gâteau est, bien entendu, la Joconde de Léonard de Vinci mais il y a de nombreux trésors à découvrir.",
+    "image": "./img/trips/trip3.png"
   }
 }

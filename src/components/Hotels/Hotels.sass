@@ -1,0 +1,55 @@
+@import '../../styles/vars'
+
+.hotels
+	&__rooms-list
+		display: grid
+		grid-template-columns: repeat(auto-fit, minmax(348px, 1fr))
+		grid-gap: 30px
+		justify-items: center
+	&__room
+		max-width: 35rem
+		width: 100%
+		height: 37rem
+		border: 1px solid $bordercolor
+		transition: all .2s
+		&:hover
+			transform: scale(1.1)
+	&__room-image
+		width: 100%
+		height: 20rem
+	&__room-info
+		display: flex
+		flex-direction: column
+		height: 17rem
+		padding: 0 1rem
+	&__room-title
+		font-weight: 700
+		font-size: 1.6rem
+		padding: 2.6rem 0
+	&__room-features
+		display: flex
+		padding-bottom: 2.4rem
+		justify-content: space-between
+		color: $greycolor
+	&__room-size
+	&__room-wifi
+
+.price
+	width: 12rem
+	text-align: center
+	padding: 0.5rem 3.2rem
+	border: 2px solid $redcolor
+	color: $redcolor
+	border-radius: 5px
+
+@media screen and (max-width: $lg)
+	.hotels
+		&__rooms-list
+			justify-content: space-around
+
+@media screen and (max-width: $xs)
+	.hotels
+		&__room
+			max-width: 32rem
+			&:hover
+				transform: scale(1)

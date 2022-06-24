@@ -1,0 +1,32 @@
+@import '../../styles/vars'
+
+.section-header
+	display: flex
+	justify-content: space-between
+	align-items: center
+	&__title
+		line-height: 8rem
+		font-weight: 400
+		font-size: 3rem
+	&__sort
+	&__item
+		padding-left: 2rem
+		cursor: pointer
+		&--active
+			color: $redcolor
+			font-weight: 600
+
+@media screen and (max-width: $sm)
+	.section-header
+		flex-direction: column
+		&__links
+			margin-bottom: 2rem
+
+@media screen and (max-width: $xs)
+    .section-header
+        &__links
+            display: flex
+            flex-direction: column
+            text-align: center
+        &__item
+            margin-bottom: 0.5rem

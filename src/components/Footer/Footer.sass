@@ -1,0 +1,52 @@
+@import '../../styles/vars'
+    
+.footer
+	padding-bottom: 7.5rem
+	&__columns
+		display: flex
+		flex-direction: row
+		text-align: left
+	&__links
+		display: flex
+		width: 100%
+		flex-direction: column
+		justify-content: flex-start
+	&__links-title
+		font-size: 3rem
+		padding: 3rem 0
+		font-weight: 400
+	&__link
+		padding: 1.5rem 0
+		color: $maincolor
+		&:hover
+			color: $greycolor
+	&__text
+		padding: 1.5rem 0
+		&--red
+			color: $redcolor
+
+.footer-link
+	&__text
+	&__email
+
+@media screen and (max-width: 991px)
+	null
+		
+
+@media screen and  (max-width: 767px)
+	.footer
+		&__links
+			flex-basis: 50%
+		&__link, &__text
+			padding: 0.5rem 0
+		&__columns
+			flex-wrap: wrap
+
+@media screen and  (max-width: 479px)
+	.footer
+		text-align: center
+		&__link, &__text
+			padding: 0.5rem 0
+		&__columns
+			flex-direction: column
+			text-align: center
