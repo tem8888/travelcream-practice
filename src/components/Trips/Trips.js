@@ -1,6 +1,6 @@
 import React, {useState, createRef} from 'react'
 import {CSSTransition, TransitionGroup} from 'react-transition-group'
-import ViewMoreButton from '../ViewMoreButton/ViewMoreButton'
+import ViewMoreButton from '../_ViewMoreButton/ViewMoreButton'
 import './Trips.sass'
 import TripCard from './TripCard'
 import tripsJSON from '../../data/trips'
